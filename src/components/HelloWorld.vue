@@ -35,7 +35,7 @@
 
 <script>
 export default {
-  name: 'Init Success',
+  name: 'HelloWorld ',
   props: {
     msg: String
   }
