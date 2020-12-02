@@ -1,4 +1,6 @@
-# lms-frontend
+# **lms-frontend**
+
+# 软件项目管理前端
 
 ## Project setup
 ```
