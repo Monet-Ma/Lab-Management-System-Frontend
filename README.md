@@ -2,25 +2,56 @@
 
 # 软件项目管理前端
 
-## Project setup
+## 环境构建及调试
+- 最好使用VSCode打开，安装Vetur插件
+- 下载NPM，并执行：
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+- 启动本地网页调试（自动同步修改）
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
+- 单元测试
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 构建可部署包
+```bash
+npm run build
+```
+## TODO
+### UI基础
+- [ ] antd配置
+  - [ ] 样式
+  - [ ] 组件风格
+### 鉴权基础
+- [ ] axios配置
+  - [ ] 鉴权
+  - [ ] 错误页
+- [ ] 登陆页
+- [ ] 注册注册页
+- [ ] 个人信息页
+- [ ] *微信互联登录*（可选：要公众号、后端支持）
+### 学生侧
+- [ ] 实验查询页：名称、余量、地点、选择入口
+- [ ] 报告提交页：已选中实验信息、成绩、提交入口
+  - 上传PDF模态框
+### 教师侧
+- [ ] 实验查询页：信息、余量、时间、管理入口
+- [ ] 实验管理页
+  - [ ] 基础信息修改（时间、数量、简介、场地）
+  - [ ] 人员管理页（批量增删）
+  - [ ] 报告查看、成绩评定页
+  - [ ] 实验状态设置（发布、未发布、考核中、结束）
+  - [ ] 边缘操作页
+    - 删除实验
+### 管理侧
+- [ ] 实验查询页：信息、余量、时间、管理入口
+- [ ] 实验管理页（包含教师所有功能，及额外）
+  - [ ] 边缘操作页
+    - 转让实验所属教师
+  - [ ] 成绩修改
+- [ ] 场地及可用时间管理页
+- [ ] 用户、用户组管理页
+- [ ] *统计功能页*
